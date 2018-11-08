@@ -182,7 +182,7 @@
     color: rgb(255, 255, 255);
     display: block;
     float: left;
-    height: 94px;
+    // height: 94px;
     left: 0px;
     position: relative;
     right: 0px;
@@ -190,7 +190,7 @@
     text-size-adjust: 100%;
     text-transform: uppercase;
     top: 0px;
-    width: 424.422px;
+    width: 500px;
     column-rule-color: rgb(255, 255, 255);
     perspective-origin: 212.203px 47px;
     transform-origin: 212.203px 47px;
@@ -203,46 +203,6 @@
     outline: rgb(255, 255, 255) none 0px;
     padding: 10px 15px;
 } /*#SPAN_5*/
-
-#SPAN_5:after {
-    bottom: -10.5938px;
-    color: rgb(255, 255, 255);
-    content: '"' '"';
-    display: block;
-    height: 0px;
-    left: 414.422px;
-    pointer-events: none;
-    position: absolute;
-    right: 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-size-adjust: 100%;
-    text-transform: uppercase;
-    top: 84.5938px;
-    width: 0px;
-    column-rule-color: rgb(255, 255, 255);
-    perspective-origin: 10px 10px;
-    transform-origin: 10px 10px;
-    caret-color: rgb(255, 255, 255);
-    border-top: 10px solid rgb(204, 0, 0);
-    border-right: 10px solid rgb(204, 0, 0);
-    border-bottom: 10px solid rgba(0, 0, 0, 0);
-    border-left: 10px solid rgba(0, 0, 0, 0);
-    font: normal normal 400 normal 36px / normal oswaldregular;
-    margin: 0px 0px 0px -10px;
-    outline: rgb(255, 255, 255) none 0px;
-} /*#SPAN_5:after*/
-
-#SPAN_5:before {
-    color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-size-adjust: 100%;
-    text-transform: uppercase;
-    column-rule-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal 400 normal 36px / normal oswaldregular;
-    outline: rgb(255, 255, 255) none 0px;
-} /*#SPAN_5:before*/
 
 #BR_6 {
     box-sizing: border-box;

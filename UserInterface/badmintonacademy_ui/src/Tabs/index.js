@@ -4,6 +4,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
+import ImageSlider from "../ImageSlider/Slider";
 
 function TabContainer(props) {
   return (
@@ -100,7 +101,11 @@ class SimpleTabs extends React.Component {
             />
           </Tabs>
         </AppBar>
-        {value === 0 && <TabContainer>Item One</TabContainer>}
+        {value === 0 && (
+          <TabContainer>
+            <ImageSlider />
+          </TabContainer>
+        )}
         {value === 1 && <TabContainer>Item Two</TabContainer>}
         {value === 2 && <TabContainer>Item Three</TabContainer>}
       </div>

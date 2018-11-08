@@ -1,0 +1,18 @@
+.image-gallery-image img {
+	height: 500px;
+}
+#modelDIV_1 {
+	margin-top: 80px;
+}
+#modelP_5 {
+	margin-left: 20px;
+	margin-top: 40px;
+}
+#modelSPAN_3 {
+	margin-left: 40px;
+	color: indianred;
+	font-family: oswald;
+}
+#backtomodels {
+	font-family: oswald;
+}

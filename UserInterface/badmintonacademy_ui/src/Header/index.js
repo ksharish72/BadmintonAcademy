@@ -18,7 +18,7 @@ class Header extends Component {
 						}}
 						id="SPAN_5"
 					>
-						ANNA BADMINTON ACADEMY
+						SPLENDOR SPORTS BADMINTON ACADEMY
 					</span>
 					<p id="P_7">Vision-Mission-Action</p>
 					<h5 style={{ fontFamily: "Oswald" }} id="H5_8">
