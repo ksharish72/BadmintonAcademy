@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.0d946480.chunk.css",
-  "main.js": "/static/js/main.6e7cb5cd.chunk.js",
-  "main.js.map": "/static/js/main.6e7cb5cd.chunk.js.map",
-  "static/css/1.5387f9ad.chunk.css": "/static/css/1.5387f9ad.chunk.css",
-  "static/js/1.f272308c.chunk.js": "/static/js/1.f272308c.chunk.js",
-  "static/js/1.f272308c.chunk.js.map": "/static/js/1.f272308c.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.0d946480.chunk.css.map": "/static/css/main.0d946480.chunk.css.map",
-  "static/css/1.5387f9ad.chunk.css.map": "/static/css/1.5387f9ad.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.987c254f344e110f595aebc9444f6179.js": "/precache-manifest.987c254f344e110f595aebc9444f6179.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/BadmintonAcademy/static/css/main.0d946480.chunk.css",
+  "main.js": "/BadmintonAcademy/static/js/main.841d3d4e.chunk.js",
+  "main.js.map": "/BadmintonAcademy/static/js/main.841d3d4e.chunk.js.map",
+  "static/css/1.5387f9ad.chunk.css": "/BadmintonAcademy/static/css/1.5387f9ad.chunk.css",
+  "static/js/1.f272308c.chunk.js": "/BadmintonAcademy/static/js/1.f272308c.chunk.js",
+  "static/js/1.f272308c.chunk.js.map": "/BadmintonAcademy/static/js/1.f272308c.chunk.js.map",
+  "runtime~main.js": "/BadmintonAcademy/static/js/runtime~main.36cd1019.js",
+  "runtime~main.js.map": "/BadmintonAcademy/static/js/runtime~main.36cd1019.js.map",
+  "static/css/1.5387f9ad.chunk.css.map": "/BadmintonAcademy/static/css/1.5387f9ad.chunk.css.map",
+  "static/css/main.0d946480.chunk.css.map": "/BadmintonAcademy/static/css/main.0d946480.chunk.css.map",
+  "index.html": "/BadmintonAcademy/index.html",
+  "precache-manifest.0b8bbdcefda1dee8ad6c5b6ed0d9fe35.js": "/BadmintonAcademy/precache-manifest.0b8bbdcefda1dee8ad6c5b6ed0d9fe35.js",
+  "service-worker.js": "/BadmintonAcademy/service-worker.js"
 }
