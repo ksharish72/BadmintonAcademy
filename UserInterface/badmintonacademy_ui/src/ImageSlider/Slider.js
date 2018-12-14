@@ -13,9 +13,9 @@ class DemoCarousel extends Component {
     const images = [
       {
         original:
-          "https://dc-cdn.s3-ap-southeast-1.amazonaws.com/dc-Cover-uvc04b7mgnnq0om5qu8a5i34r1-20160322235456.Medi.jpeg",
+          "https://raw.githubusercontent.com/ksharish72/BadmintonAcademy/master/UserInterface/badmintonacademy_ui/src/ImageSlider/academy_1.jpg",
         thumbnail:
-          "https://dc-cdn.s3-ap-southeast-1.amazonaws.com/dc-Cover-uvc04b7mgnnq0om5qu8a5i34r1-20160322235456.Medi.jpeg"
+          "https://raw.githubusercontent.com/ksharish72/BadmintonAcademy/master/UserInterface/badmintonacademy_ui/src/ImageSlider/academy_1.jpg"
       },
       {
         original:
