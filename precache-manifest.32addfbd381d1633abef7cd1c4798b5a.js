@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/BadmintonAcademy/static/js/runtime~main.36cd1019.js"
   },
   {
-    "revision": "09a2e1b85ad84d55a3cc",
-    "url": "/BadmintonAcademy/static/js/main.09a2e1b8.chunk.js"
+    "revision": "01ecdf4db1947ef1dbe0",
+    "url": "/BadmintonAcademy/static/js/main.01ecdf4d.chunk.js"
   },
   {
     "revision": "fa4858aa99ebf3e8e331",
     "url": "/BadmintonAcademy/static/js/1.fa4858aa.chunk.js"
   },
   {
-    "revision": "09a2e1b85ad84d55a3cc",
-    "url": "/BadmintonAcademy/static/css/main.04dc3fc8.chunk.css"
+    "revision": "01ecdf4db1947ef1dbe0",
+    "url": "/BadmintonAcademy/static/css/main.145091d7.chunk.css"
   },
   {
     "revision": "fa4858aa99ebf3e8e331",
     "url": "/BadmintonAcademy/static/css/1.07a5f572.chunk.css"
   },
   {
-    "revision": "5d4f3f3b920f3e6272af5b1a2eee4b66",
+    "revision": "2be7d5d3f84983f5db3eab206197599b",
     "url": "/BadmintonAcademy/index.html"
   }
 ];
