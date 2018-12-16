@@ -4,20 +4,16 @@ import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
-import ImageSlider from "../ImageSlider/Slider";
+import ImageSlider from "./Home/ImageSlider/Slider";
+import Content from "./Home/HomeContent/Content";
 
 function TabContainer(props) {
-  return (
-    <Typography component="div" style={{ padding: 8 * 3 }}>
-      {props.children}
-    </Typography>
-  );
+  return <Typography component="div">{props.children}</Typography>;
 }
 
 const styles = theme => ({
   root: {
     maxWidth: 1125,
-    marginTop: 65,
     marginLeft: "auto",
     marginBottom: 0,
     marginRight: "auto",
@@ -104,6 +100,7 @@ class SimpleTabs extends React.Component {
         {value === 0 && (
           <TabContainer>
             <ImageSlider />
+            <Content />
           </TabContainer>
         )}
         {value === 1 && <TabContainer>Item Two</TabContainer>}
