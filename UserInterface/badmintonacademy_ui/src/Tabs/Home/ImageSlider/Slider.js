@@ -13,33 +13,33 @@ class Slider extends Component {
     const images = [
       {
         original:
-          "https://raw.githubusercontent.com/ksharish72/BadmintonAcademy/master/UserInterface/badmintonacademy_ui/src/ImageSlider/academy_1.jpg",
+          "https://raw.githubusercontent.com/ksharish72/BadmintonAcademy/master/UserInterface/badmintonacademy_ui/src/Tabs/Home/ImageSlider/academy_1.jpg",
         thumbnail:
-          "https://raw.githubusercontent.com/ksharish72/BadmintonAcademy/master/UserInterface/badmintonacademy_ui/src/ImageSlider/academy_1.jpg"
+          "https://raw.githubusercontent.com/ksharish72/BadmintonAcademy/master/UserInterface/badmintonacademy_ui/src/Tabs/Home/ImageSlider/academy_1.jpg"
       },
       {
         original:
-          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/ImageSlider/academy_2.jpg?raw=true",
+          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/Tabs/Home/ImageSlider/academy_2.jpg?raw=true",
         thumbnail:
-          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/ImageSlider/academy_2.jpg?raw=true  "
+          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/Tabs/Home/ImageSlider/academy_2.jpg?raw=true  "
       },
       {
         original:
-          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/ImageSlider/academy_3.jpg?raw=true",
+          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/Tabs/Home/ImageSlider/academy_3.jpg?raw=true",
         thumbnail:
-          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/ImageSlider/academy_3.jpg?raw=true"
+          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/Tabs/Home/ImageSlider/academy_3.jpg?raw=true"
       },
       {
         original:
-          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/ImageSlider/academy_4.jpg?raw=true",
+          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/Tabs/Home/ImageSlider/academy_4.jpg?raw=true",
         thumbnail:
-          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/ImageSlider/academy_4.jpg?raw=true"
+          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/Tabs/Home/ImageSlider/academy_4.jpg?raw=true"
       },
       {
         original:
-          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/ImageSlider/academy_5.jpg?raw=true",
+          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/Tabs/Home/ImageSlider/academy_5.jpg?raw=true",
         thumbnail:
-          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/ImageSlider/academy_5.jpg?raw=true"
+          "https://github.com/ksharish72/BadmintonAcademy/blob/master/UserInterface/badmintonacademy_ui/src/Tabs/Home/ImageSlider/academy_5.jpg?raw=true"
       }
     ];
     return (
