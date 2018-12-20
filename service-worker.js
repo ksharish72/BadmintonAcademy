@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/BadmintonAcademy/precache-manifest.136197e8c516a6e01c81485fd0ad247f.js"
+  "/BadmintonAcademy/precache-manifest.4dc25738a404ad6c2f8c550191c20874.js"
 );
 
 workbox.clientsClaim();
