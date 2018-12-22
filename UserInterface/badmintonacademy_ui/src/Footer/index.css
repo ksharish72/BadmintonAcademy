@@ -1,9 +1,9 @@
 #FFOOTER_1 {
-    margin: 0px 130px;
+    margin: 0px auto;
     bottom: 0px;
     box-sizing: border-box;
     color: rgb(255, 255, 255);
-    display: inline-block;
+    //  display: inline-block;
     height: 350px;
     left: 0px;
     position: relative;

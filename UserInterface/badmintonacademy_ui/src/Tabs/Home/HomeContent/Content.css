@@ -127,7 +127,8 @@
     width: 964px;
     perspective-origin: 482px 15px;
     transform-origin: 482px 15px;
-    font: normal normal 400 normal 30px / 30px oswaldregular;
+    font-size: 30px;
+   // font: normal normal 400 normal 30px / 30px oswaldregular;
     margin: 0px 0px 15px;
 } /*#H1_3*/
 

@@ -6,6 +6,7 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import ImageSlider from "./Home/ImageSlider/Slider";
 import Content from "./Home/HomeContent/Content";
+import AboutUs from "./AboutUs/index";
 
 function TabContainer(props) {
   return <Typography component="div">{props.children}</Typography>;
@@ -37,7 +38,13 @@ class SimpleTabs extends React.Component {
 
     return (
       <div className={classes.root}>
-        <AppBar style={{ backgroundColor: "black" }} position="static">
+        <AppBar
+          style={{
+            backgroundColor: "black",
+            borderBottom: "3px solid rgb(204, 0, 0)"
+          }}
+          position="static"
+        >
           <Tabs value={value} onChange={this.handleChange} fullWidth>
             <Tab
               label={
@@ -103,7 +110,11 @@ class SimpleTabs extends React.Component {
             <Content />
           </TabContainer>
         )}
-        {value === 1 && <TabContainer>Item Two</TabContainer>}
+        {value === 1 && (
+          <TabContainer>
+            <AboutUs />
+          </TabContainer>
+        )}
         {value === 2 && <TabContainer>Item Three</TabContainer>}
       </div>
     );
