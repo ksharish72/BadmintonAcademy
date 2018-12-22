@@ -7,6 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import ImageSlider from "./Home/ImageSlider/Slider";
 import Content from "./Home/HomeContent/Content";
 import AboutUs from "./AboutUs/index";
+import Services from "./Services & Facilities/index";
 
 function TabContainer(props) {
   return <Typography component="div">{props.children}</Typography>;
@@ -116,6 +117,11 @@ class SimpleTabs extends React.Component {
           </TabContainer>
         )}
         {value === 2 && <TabContainer>Item Three</TabContainer>}
+        {value === 3 && (
+          <TabContainer>
+            <Services />
+          </TabContainer>
+        )}
       </div>
     );
   }
