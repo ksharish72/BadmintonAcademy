@@ -136,8 +136,9 @@ class SimpleTabs extends React.Component {
           </TabContainer>
         )}
         {value === 7 && (
-          <TabContainer>{/* <Contact />
-            */}</TabContainer>
+          <TabContainer>
+            <Contact />
+          </TabContainer>
         )}
       </div>
     );

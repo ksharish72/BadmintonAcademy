@@ -1,9 +1,9 @@
 import React from "react";
-import ContactForm from "./ContactForm";
+import ContactUs from "./ContactUs";
 
 class Contact extends React.Component {
   render() {
-    return <ContactForm />;
+    return <ContactUs />;
   }
 }
 
