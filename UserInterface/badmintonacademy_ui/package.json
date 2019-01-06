@@ -5,6 +5,7 @@
   "homepage": "https://ksharish72.github.io/BadmintonAcademy/",
   "dependencies": {
     "@material-ui/core": "^3.4.0",
+    "bootstrap": "^4.2.1",
     "gh-pages": "^2.0.1",
     "react": "^16.6.0",
     "react-bootstrap": "^0.32.4",

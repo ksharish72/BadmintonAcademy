@@ -6,8 +6,10 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import ImageSlider from "./Home/ImageSlider/Slider";
 import Content from "./Home/HomeContent/Content";
+import Contact from "./Contact/Contact.js";
 import AboutUs from "./AboutUs/index";
 import Services from "./Services & Facilities/index";
+import BookNow from "./Book Now/index";
 
 function TabContainer(props) {
   return <Typography component="div">{props.children}</Typography>;
@@ -46,8 +48,14 @@ class SimpleTabs extends React.Component {
           }}
           position="static"
         >
-          <Tabs value={value} onChange={this.handleChange} fullWidth>
+          <Tabs
+            scrollable
+            scrollButtons="auto"
+            value={value}
+            onChange={this.handleChange}
+          >
             <Tab
+              fullWidth
               label={
                 <span style={{ fontFamily: "Oswald", fontSize: "medium" }}>
                   Home
@@ -121,6 +129,15 @@ class SimpleTabs extends React.Component {
           <TabContainer>
             <Services />
           </TabContainer>
+        )}
+        {value === 5 && (
+          <TabContainer>
+            <BookNow />
+          </TabContainer>
+        )}
+        {value === 7 && (
+          <TabContainer>{/* <Contact />
+            */}</TabContainer>
         )}
       </div>
     );
