@@ -10,6 +10,7 @@ import Contact from "./Contact/Contact.js";
 import AboutUs from "./AboutUs/index";
 import Services from "./Services & Facilities/index";
 import BookNow from "./Book Now/index";
+import Gallery from "./Gallery/index";
 
 function TabContainer(props) {
   return <Typography component="div">{props.children}</Typography>;
@@ -128,6 +129,11 @@ class SimpleTabs extends React.Component {
         {value === 3 && (
           <TabContainer>
             <Services />
+          </TabContainer>
+        )}
+        {value === 4 && (
+          <TabContainer>
+            <Gallery />
           </TabContainer>
         )}
         {value === 5 && (
