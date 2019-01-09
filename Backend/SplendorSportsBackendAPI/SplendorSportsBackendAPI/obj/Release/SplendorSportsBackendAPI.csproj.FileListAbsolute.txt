@@ -43,3 +43,4 @@ C:\Users\ConfigitDebug\Documents\Personal\SplendorSportsBadmintonAcademy\Backend
 C:\Users\ConfigitDebug\Documents\Personal\SplendorSportsBadmintonAcademy\Backend\SplendorSportsBackendAPI\SplendorSportsBackendAPI\bin\System.Web.Cors.dll
 C:\Users\ConfigitDebug\Documents\Personal\SplendorSportsBadmintonAcademy\Backend\SplendorSportsBackendAPI\SplendorSportsBackendAPI\bin\System.Web.Http.Cors.dll
 C:\Users\ConfigitDebug\Documents\Personal\SplendorSportsBadmintonAcademy\Backend\SplendorSportsBackendAPI\SplendorSportsBackendAPI\bin\System.Web.Http.Cors.xml
+C:\Users\ConfigitDebug\Documents\Personal\SplendorSportsBadmintonAcademy\Backend\SplendorSportsBackendAPI\SplendorSportsBackendAPI\obj\Release\SplendorSportsBackendAPI.csprojAssemblyReference.cache
