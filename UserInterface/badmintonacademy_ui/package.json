@@ -9,11 +9,12 @@
     "bootstrap": "^4.2.1",
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
-    "react-accessible-accordion": "^2.4.5",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.7.0",
     "react-grid-gallery": "^0.5.3",
     "react-image-gallery": "^0.8.12",
+    "react-infinite-scroll-component": "^4.2.0",
+    "react-light-accordion": "^0.1.4",
     "react-scripts": "2.1.1"
   },
   "scripts": {

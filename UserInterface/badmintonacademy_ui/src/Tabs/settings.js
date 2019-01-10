@@ -1,2 +1,2 @@
-//export const serverUrl = "http://backend.splendorsports.com";
-export const serverUrl = "http://localhost:52165";
+export const serverUrl = "http://backend.splendorsports.com";
+//export const serverUrl = "http://localhost:52165";
