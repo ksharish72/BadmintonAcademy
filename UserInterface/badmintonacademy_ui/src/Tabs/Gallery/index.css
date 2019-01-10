@@ -1,0 +1,6 @@
+.accordion .accordion-item.active .panel {
+	max-height: max-content;
+}
+.accordion .accordion-item .title {
+	font-size: medium;
+}

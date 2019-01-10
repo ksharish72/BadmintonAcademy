@@ -13,7 +13,10 @@ class GalleryTab extends React.Component {
     this.state = {
       under13and15PhotoSet: [],
       under17PhotoSet: [],
-      under19PhotoSet: []
+      under19PhotoSet: [],
+      showFirstPhotoSet: false,
+      showSecondPhotoSet: false,
+      showThirdPhotoSet: false
     };
     var url = serverUrl + "/api/gallery/getallphotos";
     axios.get(url).then(response => {
@@ -28,9 +31,9 @@ class GalleryTab extends React.Component {
       );
 
       this.setState({
-        under13and15PhotoSet: under13and15PhotoSet.splice(0, 2),
-        under19PhotoSet: under19PhotoSet.splice(0, 2),
-        under17PhotoSet: under17PhotoSet.splice(0, 2)
+        under13and15PhotoSet: under13and15PhotoSet,
+        under19PhotoSet: under19PhotoSet,
+        under17PhotoSet: under17PhotoSet
       });
     });
   }
@@ -47,6 +50,21 @@ class GalleryTab extends React.Component {
     });
     return PhotoSet;
   }
+  handlefirstaccordionclick = () => {
+    this.setState({
+      showFirstPhotoSet: true
+    });
+  };
+  handlesecondaccordionclick = () => {
+    this.setState({
+      showSecondPhotoSet: true
+    });
+  };
+  handlethirdaccordionclick = () => {
+    this.setState({
+      showThirdPhotoSet: true
+    });
+  };
   render() {
     const {
       under13and15PhotoSet,
@@ -61,20 +79,36 @@ class GalleryTab extends React.Component {
           30th December 2018)
         </h3>
         <Accordion atomic={true}>
-          <AccordionItem title="Under 13 & Under 15 Category">
-            <Gallery
-              images={under13and15PhotoSet}
-              enableImageSelection={false}
-            />
-          </AccordionItem>
-
-          <AccordionItem title="Under 17 Category">
-            <Gallery images={under17PhotoSet} enableImageSelection={false} />
-          </AccordionItem>
-
-          <AccordionItem title="Under 19 Category">
-            <Gallery images={under19PhotoSet} enableImageSelection={false} />
-          </AccordionItem>
+          <div onClick={this.handlefirstaccordionclick}>
+            <AccordionItem title="Under 13 & Under 15 Category">
+              {this.state.showFirstPhotoSet && (
+                <Gallery
+                  images={under13and15PhotoSet}
+                  enableImageSelection={false}
+                />
+              )}
+            </AccordionItem>
+          </div>
+          <div onClick={this.handlesecondaccordionclick}>
+            <AccordionItem title="Under 17 Category">
+              {this.state.showSecondPhotoSet && (
+                <Gallery
+                  images={under17PhotoSet}
+                  enableImageSelection={false}
+                />
+              )}
+            </AccordionItem>
+          </div>
+          <div onClick={this.handlethirdaccordionclick}>
+            <AccordionItem title="Under 19 Category">
+              {this.state.showThirdPhotoSet && (
+                <Gallery
+                  images={under19PhotoSet}
+                  enableImageSelection={false}
+                />
+              )}
+            </AccordionItem>
+          </div>
         </Accordion>
       </div>
     );
