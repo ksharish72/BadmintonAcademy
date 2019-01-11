@@ -43,7 +43,7 @@ namespace SplendorSportsBackendAPI.Controllers
         private Day GetDayPhotos(string day, string category, string date)
         {
             List<Photo> dayPhotosList = new List<Photo>();
-            foreach (string f in Directory.GetFiles(day, "*.jpg"))
+            foreach (string f in Directory.GetFiles(day))
             {
                 string fileName = new FileInfo(f).Name;
                 Photo photoObj = new Photo()
