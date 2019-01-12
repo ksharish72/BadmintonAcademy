@@ -58,7 +58,7 @@ class Content extends Component {
             <figure id="FIGURE_16">
               <a href="#" id="A_17">
                 <img
-                  src="https://raw.githubusercontent.com/ksharish72/BadmintonAcademy/master/UserInterface/badmintonacademy_ui/src/Tabs/Home/ImageSlider/academy_1.jpg"
+                  src="https://raw.githubusercontent.com/ksharish72/BadmintonAcademy/master/UserInterface/badmintonacademy_ui/src/Tabs/Home/ImageSlider/academy_1.jpeg"
                   alt=""
                   id="IMG_18"
                 />
